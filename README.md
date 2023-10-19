@@ -20,11 +20,17 @@ Finally, to deploy the configuration, write the following cmd:
 
 ```bash
 terraform fmt 
+```
 
+```bash
 terraform init
+```
 
+```bash
 terraform plan
+```
 
+```bash
 terraform apply
 ```
 ## Conclusion

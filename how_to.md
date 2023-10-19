@@ -1,6 +1,7 @@
-###########################################################
-####    Create a persistent state in Cloud Shell     ######
-###########################################################
+# HOW TO
+
+## Create a persistent state in Cloud Shell
+
 1. Type in the shell
 
 ```bash
