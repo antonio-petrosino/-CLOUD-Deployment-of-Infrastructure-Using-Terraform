@@ -18,14 +18,15 @@ Throughout this project, you will gain hands-on experience in the following task
 
 Finally, to deploy the configuration, write the following cmd:
 
-$ terraform fmt
+```bash
+terraform fmt 
 
-$ terraform init
+terraform init
 
-$ terraform plan
+terraform plan
 
-$ terraform apply
-
+terraform apply
+```
 ## Conclusion
 
 A Terraform configuration has been created with a module to automate the deployment of Google Cloud infrastructure. As your configuration changes, Terraform can create incremental execution plans, which allows you to build your overall configuration step by step.
