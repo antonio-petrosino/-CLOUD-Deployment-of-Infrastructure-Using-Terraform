@@ -18,13 +18,13 @@ Throughout this project, you will gain hands-on experience in the following task
 
 Finally, to deploy the configuration, write the following cmd:
 
-`terraform fmt`
+$ terraform fmt
 
-`terraform init`
+$ terraform init
 
-`terraform plan`
+$ terraform plan
 
-`terraform apply`
+$ terraform apply
 
 ## Conclusion
 
