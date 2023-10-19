@@ -16,11 +16,6 @@ echo INFRACLASS_REGION=$INFRACLASS_REGION >> ~/infraclass/config
 echo INFRACLASS_PROJECT_ID=$INFRACLASS_PROJECT_ID >> ~/infraclass/config
 source infraclass/config
 ```
-
-```bash
-```
-
-
 2. Modify the bash profile and create persistence
 ```bash
 nano .profile
