@@ -126,7 +126,9 @@ This line set up a cronjob to run backups every 4 hours.
 
 ## 5. Schedule shutdown and startup script
 
-Instead of manually going through the process of mounting the persistent disk and initiating the server application within a screen, you have the option to streamline this by utilizing metadata scripts. These scripts will automatically generate a startup script and a shutdown script, taking care of these tasks on your behalf.
+To perform server maintenance, you need to i) shut down the server and ii) stop the VM instance. This operation unmount the persistent disk from the VM. So, you need to configure and run application again (see section above). But, you automate this process using metadata scripts.
+
+Indeed, instead of manually going through the process of mounting the persistent disk and initiating the server application within a screen, you have the option to streamline this by utilizing metadata scripts. These scripts will automatically generate a startup script and a shutdown script, taking care of these tasks on your behalf.
 
 Click `edit` on your VM instances and looking for the `Metadata` section. Then, click `Add Item`
 
